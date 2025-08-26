@@ -1,0 +1,11 @@
+hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://source.unsplash.com/1600x900/?technology,programming') no-repeat center center/cover;
+    color: rgb(2, 121, 224);
+}
+.skill-card:hover {
+    background-color: #0064f9;
+    color:white;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
